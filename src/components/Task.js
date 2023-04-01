@@ -28,7 +28,6 @@ function Task({ task, onArchiveTask, onPinTask }) {
           readOnly={true}
           name="title"
           placeholder="Input title"
-          style={{ background: "red" }}
         />
       </label>
 
