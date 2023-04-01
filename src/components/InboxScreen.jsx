@@ -15,9 +15,9 @@ export default function InboxScreen() {
 
   if (error) {
     return (
-      <div className="page list-show">
+      <div className="page lists-show">
         <div className="wrapper-message">
-          <span className="icon-face-sad"></span>
+          <span className="icon-face-sad" />
           <p className="title-message">Oh no!</p>
           <p className="subtitle-message">Something went wrong</p>
         </div>
