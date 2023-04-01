@@ -1,8 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
 function Task({ task, onArchiveTask, onPinTask }) {
-  const { id, title, state } = task
+  const { id, title, state } = task;
 
   return (
     <div className={`list-item ${state}`}>
@@ -28,6 +28,7 @@ function Task({ task, onArchiveTask, onPinTask }) {
           readOnly={true}
           name="title"
           placeholder="Input title"
+          style={{ background: "red" }}
         />
       </label>
 
@@ -43,17 +44,17 @@ function Task({ task, onArchiveTask, onPinTask }) {
         </button>
       )}
     </div>
-  )
+  );
 }
 
 Task.propTypes = {
   task: PropTypes.shape({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    state: PropTypes.string.isRequired
+    state: PropTypes.string.isRequired,
   }),
   onArchiveTask: PropTypes.func,
-  onPinTask: PropTypes.func
-}
+  onPinTask: PropTypes.func,
+};
 
-export default Task
+export default Task;
