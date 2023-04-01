@@ -9,7 +9,7 @@ This tutorial uses `ReactJS` and `vanillaCSS`.
 
 ## Project
 
-The product is a taskList component, similar to the popular todolist. Rather than build the UI, I created storybook stories that implement core functionality of the app.
+The product is a taskList application, similar to the popular todolist. Rather than build the UI, I created storybook stories that implement core functionality of the app.
 
 The interesting part of this was experimenting with Component driven design. Here, I worked on writing stories for each individual modular components, 
 and then worked my way up to a screen.
